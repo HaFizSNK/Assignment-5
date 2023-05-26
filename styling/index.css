@@ -1,8 +1,13 @@
+
+/*
+
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
 body{
-
-
-     
+  margin:0px;
+  padding:0px;
+  
     background-image: linear-gradient( 111.4deg,  rgba(7,7,9,1) 6.5%, rgba(27,24,113,1) 93.2% );
 }
 .navbar{
@@ -38,10 +43,18 @@ body{
     font-family: 'Oswald', sans-serif;
 
 
-}
+
+  }
+  .pop{
+    margin-left:40px;
+  }
+  .bt{
+    margin-left: 70px;
+    width: 200px;
+  }
  .about{
     color: rgb(15, 3, 70);
- background-color: white;
+
     font-family: 'Oswald', sans-serif;
 }
 .ul li{
@@ -250,4 +263,46 @@ h3{
 }
 
  
+.shadow{
+  text-shadow: 5px 5px 5px blue;
+}  
+.Say{
+  margin-top: 50px;
+  margin-left: 50px;
+
+}
+
+.pic{
+  margin-top: 50px;
+}
+.navbar-toggler{
+  background-color: white;
+  color: #030555;
   
+
+}
+.margin{
+  margin-top: -30px;
+}
+
+.height{
+  height: auto;
+}
+@media screen and(max-width:426px){
+  .height{
+
+ height:500px;   
+  }
+}
+
+.image-fluid{
+  display: block;
+}
+@media screen and(max-width:426px) {
+
+.image-fluid{
+
+  margin-right: 800px;
+}
+  
+}
